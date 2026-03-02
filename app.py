@@ -107,5 +107,4 @@ def predict():
         return render_template("index.html", error=f"Error: {str(e)}")
 
 if __name__ == "__main__":
-    # Set host="0.0.0.0" if you want external access; debug=True for dev only
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
