@@ -1,6 +1,8 @@
+python-3.10.13
 flask
+
 tensorflow==2.15.0
-runtime.txt 
+
 keras
 numpy
 pillow
